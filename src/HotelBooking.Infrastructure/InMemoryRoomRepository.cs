@@ -14,5 +14,5 @@ public class InMemoryRoomRepository : IRoomRepository
     }
 
     public IEnumerable<Room> GetAll() => _rooms;
-    public Room GetById(Guid id) => _rooms.FirstOrDefault(r => r.Id == id);
+   public Room? GetById(Guid id) => _rooms.FirstOrDefault(r => r.Id == id);
 }
