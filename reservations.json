@@ -1,0 +1,24 @@
+[
+  {
+    "Id": "ad961840-b02f-4a79-a02b-d06ff43f1586",
+    "RoomId": "dfc2b6e6-bbaa-416c-b186-a13ff9b9442c",
+    "GuestName": "Diana",
+    "Dates": {
+      "Start": "2026-05-05T00:00:00",
+      "End": "2026-05-06T00:00:00",
+      "TotalDays": 1
+    },
+    "Status": 0
+  },
+  {
+    "Id": "96e69cd8-4532-4ca7-a4c0-09fa38913ed0",
+    "RoomId": "456a80b8-a57a-4f88-b552-a94057acbe30",
+    "GuestName": "Anna",
+    "Dates": {
+      "Start": "2026-07-07T00:00:00",
+      "End": "2026-08-09T00:00:00",
+      "TotalDays": 33
+    },
+    "Status": 0
+  }
+]
