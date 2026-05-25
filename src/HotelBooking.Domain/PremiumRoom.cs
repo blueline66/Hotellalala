@@ -2,12 +2,13 @@ namespace HotelBooking.Domain;
 
 public class PremiumRoom : Room
 {
+    public decimal ExtraCharge { get; }
     public decimal ExtraFee { get; }
 
-    public PremiumRoom(string number, decimal basePrice, decimal extraFee) : base(number, basePrice)
+    public PremiumRoom(string number, decimal basePrice, decimal extraCharge) : base(number, basePrice)
     {
-        ExtraFee = extraFee;
+        ExtraCharge = extraCharge;
     }
 
-    public override decimal CalculatePrice(int days) => (BasePrice * days) + ExtraFee;
+    public override decimal CalculatePrice(int days) => (BasePrice * days) + ExtraCharge;
 }
